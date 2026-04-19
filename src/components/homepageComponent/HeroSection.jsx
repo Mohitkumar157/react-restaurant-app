@@ -111,7 +111,7 @@ function HeroSection() {
                         </div>
                         <Button>Taste It Today</Button>
                     </div>
-                    <div className='hero-bottom-bg wraper absolute z-2 left-0 bottom-0 bg-[url("public/bg-wall.webp")] w-full h-62 bg-bottom bg-cover'>
+                    <div className='hero-bottom-bg wraper absolute z-2 left-0 bottom-0 bg-[url("/public/bg-wall.webp")] w-full h-62 bg-bottom bg-cover'>
 
                     </div>
                    
