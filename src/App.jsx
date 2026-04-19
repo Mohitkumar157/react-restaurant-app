@@ -6,6 +6,7 @@ import Blog from "./components/pages/Blog";
 import OurMenu from "./components/pages/OurMenu";
 import MenuDetails from "./components/OurMenu/MenuDetails";
 import Contact from "./components/pages/Contact";
+import NotFound from "./components/pages/NotFound";
 function App() {
 
   const routes = createBrowserRouter([
@@ -33,6 +34,10 @@ function App() {
         {
           path : "/menu/:id",
           element : <MenuDetails />
+        },
+        {
+          path : "*",
+          element : <NotFound />
         }
       ]
     }

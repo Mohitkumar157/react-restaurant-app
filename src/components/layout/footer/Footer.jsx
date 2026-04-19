@@ -148,15 +148,15 @@ function Footer() {
 
 
 
-                            <div className="third flex flex-col gap-12">
+                            <div className="third flex flex-col gap-4! md:gap-12">
                                 <div className="opening-timing">
-                                    <h2 className="text-[24px] mb-7! text-[#002922]">Opening time</h2>
+                                    <h2 className="text-[24px] md:mb-7! text-[#002922]">Opening time</h2>
                                     <p>Mon – Thu (10:00 AM – 08:00 PM)</p>
                                     <p>Fri – Sun (11:00 AM – 09:00 PM)</p>
                                 </div>
 
                                 <div className="contact">
-                                    <h2 className="text-[24px] mb-7! text-[#002922]">contact us</h2>
+                                    <h2 className="text-[24px] md:mb-7! text-[#002922]">contact us</h2>
                                     <p>Phone : 888 456 7890</p>
                                     <p>Email us : info@example.com</p>
                                 </div>

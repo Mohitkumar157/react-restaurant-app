@@ -23,7 +23,7 @@ function OurMenu() {
 
       <div className="container mt-60! md:mt-50!">
         <div className="menu-head relative text-center flex justify-center ">
-          <div className="headings flex flex-col gap-4.5 absolute -bottom-8">
+          <div className="headings flex flex-col gap-4.5 md:static absolute -bottom-8">
             <p className="text-[18px] text-[#b92e2d] font-bold!">
               Delicious Picks
             </p>
