@@ -3,7 +3,7 @@ import { HiXMark } from "react-icons/hi2";
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import Cart from "./Cart";
-function HumburgerMenu() {
+function HumburgerMenu({scroll}) {
     const [isOpen, setIsOpen] = useState(false);
     function handlerToggle() {
         setIsOpen((pre) => !pre);
@@ -21,11 +21,12 @@ function HumburgerMenu() {
         return () => {
             window.removeEventListener("click", handlerClose, true);
         }
+        
 
     })
 
     return (
-        <div className='humbergerMenu relative bg-[#f8efd8] min-[949px]:hidden'>
+        <div className={`humbergerMenu bg-[#f8efd8] min-[949px]:hidden fixed top-0 left-0 w-full z-50`}>
             <div className="top px-4! flex justify-between items-center py-7! border-b border-px border-[#b92e2d]">
 
                 <div className="logo">
@@ -70,7 +71,7 @@ function HumburgerMenu() {
                 </div>
                 </div>
             </div>
-            <div className={` flex absolute top-27 bg-[#f8efd8] z-50 left-0 w-full flex-col overflow-hidden gap-2 ${isOpen ? "h-59" : "h-0"} transition-all duration-300`}>
+            <div className={` flex absolute top-26.1 bg-[#f8efd8] z-50 left-0 w-full flex-col overflow-hidden gap-2 ${isOpen ? "h-59" : "h-0"} transition-all duration-300`}>
                 <Link to="/" className="menu-item luckiest-guy tracking-wider p-2!">HOME</Link>
                 <Link to="/about" className="menu-item luckiest-guy tracking-wider p-2!">ABOUT</Link>
                 <Link to="/menu" className="menu-item luckiest-guy tracking-wider p-2!">OUR MENU</Link>

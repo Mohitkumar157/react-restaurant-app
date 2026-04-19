@@ -81,10 +81,10 @@ function AboutMenu() {
 
                 <div className="left md:w-[50%] relative">
                     <div className="leaf max-w-30 rotate-220 absolute -top-12.5 md:-top-22.5 right-0 blur-xs"><img src={leafImg} alt="green-leaf" className="moving-item" /></div>
-                    <h4 className="text-center md:text-start">Our Special Menu</h4>
-                    <h1 className='leading-[1.1] md:leading-none text-center md:text-start text-[64px] border-b border-[#ccc] pb-4!'>Delicious Deals in One Click</h1>
+                    <h4 className="text-center md:text-start py-4!">Our Special Menu</h4>
+                    <h1 className='leading-[1.1] md:leading-none text-center md:text-start text-[36px] md:text-[64px] border-b border-[#ccc] pb-4!'>Delicious Deals in One Click</h1>
                     <div className="daily-orders flex justify-center items-center md:justify-start gap-6">
-                        <div className="box">
+                        <div className="box py-4!">
                             <h6 className='text-[60px] text-[#b92e2d] flex overflow-hidden h-25'>
 
                                 <div className="first-dight flex flex-col">{firstNum}</div>
@@ -94,7 +94,7 @@ function AboutMenu() {
                             <h6>Daily Orders</h6>
                         </div>
 
-                        <div className="box">
+                        <div className="box py-4!">
                             <h6 className='text-[60px] text-[#b92e2d] flex overflow-hidden h-25'>
                                 <div className="third-digit flex flex-col">{thirdNum}</div>
                                 <div className="fourth-digit flex flex-col">{fourthNum}</div>

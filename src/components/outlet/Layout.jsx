@@ -11,7 +11,9 @@ function Layout() {
        <ScrollToTop />
       <ConextProvider>
         <Header />
-        <Outlet />
+        <div className="main mt-25!">
+          <Outlet />
+        </div>
         <Footer />
       </ConextProvider>
     </>

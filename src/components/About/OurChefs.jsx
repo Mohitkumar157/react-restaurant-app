@@ -9,10 +9,10 @@ function ChefCard({ image, chefName = "Mohit", designation }) {
       <div className="red-bg absolute w-full h-0 top-0 left-0 transition-all duration-800  group-hover:bg-[#b92e2d] group-hover:w-full group-hover:h-full"></div>
       <div className="card flex flex-col gap-4 relative">
         <div className="img-wraper rounded-lg overflow-hidden">
-          <img src={image} alt="" />
+          <img src={image} alt={chefName} />
         </div>
         <div className="designation">
-          <h2 className='text-[18px] transition-all duration-800 group-hover:text-[white]'>{chefName}</h2>
+          <h2 className='text-[24px] transition-all duration-800 group-hover:text-[white]'>{chefName}</h2>
           <p className='transition-all duration-800 group-hover:text-[white]'>{designation}</p>
         </div>
       </div>
@@ -28,7 +28,7 @@ function OurChefs() {
     <div className='our-chefs pb-16!'>
       <div className="section-heading my-8! md:my-0!">
         <div className="container">
-          <h4 className="text-center text-[24px]">Our Chefs</h4>
+          <h4 className="text-center text-[24px] py-4!">Our Chefs</h4>
           <h2 className="text-[36px] text-center md:mt-6! md:mb-9!">Meet the Hands Behind <br className='hidden md:block'/> the Flavor</h2>
         </div>
       </div>

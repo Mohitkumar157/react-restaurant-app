@@ -38,9 +38,9 @@ function Blog() {
     return (
         <div ref={ref} className='blog-page py-16!'>
             <div className="container">
-                <div className="section-head flex justify-center text-[64px]">
+                <div className="section-head flex justify-center text-[36px] md:text-[64px]">
                     <div className="heading-group max-w-fit relative">
-                        <h1 className='main-heading text-center leading-20 mb-8!'>Taste Talks – Our <br className='hidden md:block'/> Food Blog</h1>
+                        <h1 className='main-heading text-center md:leading-20 mb-8!'>Taste Talks – Our <br className='hidden md:block'/> Food Blog</h1>
                         <img src={headingTopIcon} alt="icon" className='hidden md:block heading-icon absolute rotate-90 -top-[15%] -right-[10%]' />
 
                     </div>
@@ -132,8 +132,8 @@ function BlogCard({ index, img, date, heading, active, setActive, children }) {
             <img src={img} alt="blog-img" />
 
             <div
-                className={`hidden md:block related-content absolute ${active === index ? "translate-y-[0%]" : "translate-y-[150%]"} bottom-[6%] bg-[#f8efd8] max-w-[70%] mx-6! py-2.5! px-4! rounded-lg group-hover:translate-y-0 transition-all duration-800`}>
-                <div className="date w-fit absolute -top-6.75 rounded-tl-lg rounded-tr-lg bg-inherit px-3! py-2! left-0">
+                className={` related-content md:absolute ${active === index ? "md:translate-y-[0%]" : "md:translate-y-[150%]"} bottom-[6%] bg-[#f8efd8] w-full md:max-w-[70%] md:mx-6! py-2.5! px-4! rounded-lg group-hover:translate-y-0 transition-all duration-800`}>
+                <div className="date w-fit md:absolute -top-6.75 rounded-tl-lg rounded-tr-lg bg-inherit px-3! py-2! left-0">
                     <h4 className='font-light'>{date}</h4>
                 </div>
                 <h2 className='text-[24px] pb-2! border-b border-b-[#00292233]'>{heading}</h2>
