@@ -138,7 +138,7 @@ function Footer() {
                                        <Link to={"/blog"}> <li className="text-[18px] text-[#002922]">Blog</li></Link>
                                     </ul>
                                 </div>
-                                <div className="hidden md:block bike absolute bottom-0 right-[34%] max-w-45">
+                                <div className="hidden md:block bike absolute z-50 bottom-0 right-[34%] max-w-45">
                                     <div className="bike-wraper">
                                         <img src={bike} alt="bike" loading="lazy"/>
                                         <img src={headLight} alt="bike-light" className="bike-light absolute top-[22%] left-[80%]" loading="lazy"/>
