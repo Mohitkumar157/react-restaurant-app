@@ -1,16 +1,73 @@
-# React + Vite
+# 🍽️ React Restaurant App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive restaurant website built using React and Tailwind CSS.
+This project focuses on clean UI, smooth animations, and reusable component structure.
 
-Currently, two official plugins are available:
+---
+## 📖 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is a frontend-focused restaurant website designed to practice modern UI/UX, animations, and component-based architecture.
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Fully responsive design (mobile + desktop)
+* Menu filtering system
+* Smooth animations using GSAP
+* Clean and modern UI
+* Reusable components
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Tech Stack
+
+* React.js
+* Tailwind CSS
+* Vite
+* GSAP
+
+---
+
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/865379db-ecb5-491d-a758-5aeacbc78a43" width="800"/>
+</p>
+
+
+---
+
+## 🔗 Live Demo
+
+https://react-restaurant-app-xi.vercel.app/
+
+---
+
+## ⚙️ Installation
+
+```bash 
+git clone https://github.com/Mohitkumar157/react-restaurant-app
+cd react-restaurant-app
+npm install
+npm run dev
+```
+
+---
+
+## 💡 Learnings
+
+* Improved component structuring
+* Better UI/UX design understanding
+* Implemented animations using GSAP
+* Handling responsive layouts
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork and improve this project.
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star ⭐
